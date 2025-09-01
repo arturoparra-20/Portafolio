@@ -20,7 +20,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-black via-gray-950/90 to-transparent"></div>
 
         {/* Contenido encima */}
-        <div className="relative z-10 flex flex-col sm:flex-row items-center h-full px-4 sm:px-16">
+        <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center h-full px-4 sm:px-16">
           <motion.div
             className="text-gray-200 max-w-xl w-full"
             initial={{ opacity: 0, x: -40 }}
