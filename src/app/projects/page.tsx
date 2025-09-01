@@ -72,11 +72,11 @@ export default function Projects() {
       github: "https://github.com/arturoparra-20/PDF-Generator",
     },
     {
-      title: "Clasificador de Textos con IA",
+      title: "Fitness-Planner",
       description:
-        "Modelo de NLP para analizar documentos y clasificar su nivel de complejidad.",
+        "Aplicación web para planificar y seguir rutinas de ejercicio personalizadas propulsadoa por IA.",
       image: "/s.png",
-      tools: ["Python", "Transformers", "Scikit-learn"],
+      tools: ["OpenAPI", "Next.js", "Express", "MongoDB", "Tailwind"],
       github: "https://github.com/tuusuario/nlp-classifier",
     },
   ];
