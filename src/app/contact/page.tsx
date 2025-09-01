@@ -44,10 +44,10 @@ export default function Contact() {
         </a>
         {/* Twitter/X */}
         <a
-          href="https://twitter.com/arturoparra"
+          href="https://wa.me/593939813724"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center justify-center rounded-xl bg-[#1DA1F2] text-white py-14 shadow hover:scale-105 transition"
+          className="flex flex-col items-center justify-center rounded-xl bg-green-700 text-white py-14 shadow hover:scale-105 transition"
         >
           <svg
             width="64"
@@ -58,7 +58,7 @@ export default function Contact() {
           >
             <path d="M24 4.557a9.93 9.93 0 01-2.828.775 4.932 4.932 0 002.165-2.724c-.951.555-2.005.959-3.127 1.184a4.916 4.916 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161c-.543.938-.855 2.021-.855 3.17 0 2.188 1.115 4.116 2.823 5.247a4.904 4.904 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 01-2.224.084c.627 1.956 2.444 3.377 4.6 3.418A9.867 9.867 0 010 21.543a13.94 13.94 0 007.548 2.212c9.058 0 14.009-7.513 14.009-14.009 0-.213-.005-.425-.014-.636A10.025 10.025 0 0024 4.557z" />
           </svg>
-          <span className="font-semibold text-lg">Twitter/X</span>
+          <span className="font-semibold text-lg">Whatsapp</span>
         </a>
         {/* Email */}
         <a

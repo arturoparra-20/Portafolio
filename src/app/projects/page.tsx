@@ -59,23 +59,23 @@ export default function Projects() {
       title: "Foro Peliculas",
       description:
         "Aplicación web tipo foro para discutir y compartir opiniones sobre películas.",
-      image: "/images/biblioteca.png", // coloca tus imágenes en /public/images/
+      image: "EcuaMovies.png", 
       tools: ["React", ".NET 8", "SQL Server", "Tailwind"],
-      github: "https://github.com/tuusuario/sistema-biblioteca",
+      github: "https://github.com/arturoparra-20/Proyecto-React-.NET",
     },
     {
-      title: "E-commerce B2C",
+      title: "Generador de Archivos PDF con Python",
       description:
-        "Plataforma de comercio electrónico con carrito de compras e integración de pagos.",
-      image: "/images/ecommerce.png",
-      tools: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
-      github: "https://github.com/tuusuario/ecommerce-b2c",
+        "Plataforma para crear PDF con el formato de Cedula de Identidad y Certificado de Votacion ecuatoriano.",
+      image: "/PDF_generator.png",
+      tools: ["Angular 19", "TypeScript", "Flask", "Tailwind"],
+      github: "https://github.com/arturoparra-20/PDF-Generator",
     },
     {
       title: "Clasificador de Textos con IA",
       description:
         "Modelo de NLP para analizar documentos y clasificar su nivel de complejidad.",
-      image: "/images/nlp.png",
+      image: "/s.png",
       tools: ["Python", "Transformers", "Scikit-learn"],
       github: "https://github.com/tuusuario/nlp-classifier",
     },

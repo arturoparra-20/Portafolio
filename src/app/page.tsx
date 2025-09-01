@@ -1,7 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
+import { Link } from "lucide-react";
+import { useRouter } from "next/navigation";
+
 
 export default function Home() {
+  const router = useRouter();
   return (
     <>
      <div className="relative h-[600px] w-auto mt-20 rounded-3xl overflow-hidden shadow-lg mb-20">
@@ -35,22 +39,22 @@ export default function Home() {
               artificial.
             </p>
 
-            <motion.a
-              href="/projects"
+            <motion.button
+              onClick={() => router.push('/projects')}
               className="inline-block px-6 py-3 bg-gray-900 text-white rounded-lg shadow hover:bg-gray-800 transition mr-6"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Ver mis proyectos
-            </motion.a>
-            <motion.a
-              href="/cv"
+            </motion.button>
+            <motion.button
+              onClick={() => router.push('/cv')}
               className="inline-block px-6 py-3 bg-gray-900 text-white rounded-lg shadow hover:bg-gray-800 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Ver mi CV
-            </motion.a>
+            </motion.button>
           </motion.div>
         </div>
       </div>
@@ -97,8 +101,8 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          ¿Deseas mas información o conocer más de mis proyectos?{" "}
-          <a href="/contact" className="text-navy-800 font-semibold underline">
+          ¿Deseas contactarme o conocer más de mis proyectos?{" "}
+          <a onClick={()=> router.push("/contact")} className="text-navy-800 font-semibold underline">
             Contáctame
           </a>
         </motion.p>
@@ -126,3 +130,4 @@ const techs = [
 
  
 ];
+
