@@ -77,6 +77,6 @@ const projects = [
       "Aplicación web para planificar y seguir rutinas de ejercicio personalizadas propulsadoa por IA.",
     image: "/comming_soon.jpg",
     tools: ["OpenAPI", "Next.js", "Express", "MongoDB", "Tailwind"],
-    github: "https://github.com/tuusuario/nlp-classifier",
+    github: "https://github.com/arturoparra-20/Fitness-Planner",
   },
 ];
