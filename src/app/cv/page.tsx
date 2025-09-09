@@ -6,7 +6,7 @@ export default function CV() {
       </h1>
       <div className="w-full max-w-5xl h-[70vh] sm:h-[100vh] bg-white rounded-xl shadow-lg overflow-hidden">
         <iframe
-          src="/hv_arturo.pdf"
+          src="/hv_arturop.pdf"
           className="w-full h-full"
           style={{ border: "none" }}
         />
