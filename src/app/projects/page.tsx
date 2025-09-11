@@ -76,7 +76,7 @@ const projects = [
     description:
       "Aplicación web para planificar y seguir rutinas de ejercicio personalizadas propulsadoa por IA.",
     image: "/comming_soon.jpg",
-    tools: ["OpenAPI", "Next.js", "Express", "MongoDB", "Tailwind"],
+    tools: ["OpenAPI", "Next.js", "Express", "PostegreSQL", "Tailwind"],
     github: "https://github.com/arturoparra-20/Fitness-Planner",
   },
 ];
